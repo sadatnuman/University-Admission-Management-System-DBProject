@@ -1,5 +1,7 @@
 # University Admission Management System
 
+**[View the full Project Report (PDF)](docs/project-report.pdf)**
+
 An **Oracle SQL and PL/SQL academic database project** that models the admission process from applicant registration and application review to payment tracking, evaluation, and student enrollment.
 
 Developed for **Advance Database Management System, Section C, Fall 2025–2026** at **American International University-Bangladesh (AIUB)**.
