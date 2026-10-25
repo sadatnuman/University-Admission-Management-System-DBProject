@@ -1,0 +1,15 @@
+# macOS and editor metadata
+.DS_Store
+.AppleDouble
+.vscode/
+.idea/
+
+# Local database connections and credentials
+.env
+.env.*
+!.env.example
+*.log
+*.spool
+
+# Temporary document files
+~$*

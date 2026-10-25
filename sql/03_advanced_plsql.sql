@@ -267,7 +267,7 @@ END;
 
 
 --Row Level Trigger
-11. Create a PL/SQL row level trigger that sends a notification message containing application id, old status and new status when the status of the application is updated.
+--11. Create a PL/SQL row level trigger that sends a notification message containing application id, old status and new status when the status of the application is updated.
 
 CREATE OR REPLACE TRIGGER application_status_change
 BEFORE UPDATE ON Application 
