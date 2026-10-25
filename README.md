@@ -6,13 +6,11 @@ An **Oracle SQL and PL/SQL academic database project** that models the admission
 
 Developed for **Advance Database Management System, Section C, Fall 2025–2026** at **American International University-Bangladesh (AIUB)**.
 
-[Setup guide](docs/setup.md) · [Database reference](docs/database.md) · [UI gallery](docs/interface-gallery.md) · [Project report](docs/project-report.pdf)
-
-![University admission interface concept](docs/screenshots/01-home.png)
+[Setup guide](docs/setup.md) · [Database reference](docs/database.md) · [Project report](docs/project-report.pdf)
 
 ## Project scope
 
-This repository contains the database schema, sample data, PL/SQL exercises, design documents, and planned user interfaces. The interface images are **design mockups**; application source code and a runnable web or desktop frontend are not included.
+This repository contains the database schema, sample data, PL/SQL exercises, and database design documents.
 
 The database demonstrates:
 
@@ -44,7 +42,6 @@ This is the modeled business workflow. The scripts demonstrate individual databa
 | Script execution | SQL Developer, SQLcl, or SQL*Plus |
 | Database diagrams | diagrams.net / draw.io |
 | Documentation | PDF and Word documents |
-| Interface planning | PNG mockups |
 
 No specific Oracle release is pinned in the original project. See the [setup guide](docs/setup.md) for connection requirements and execution instructions.
 
@@ -128,22 +125,19 @@ Run the schema/seed script once in an empty schema. It is not idempotent. The PL
 └── docs/
     ├── setup.md
     ├── database.md
-    ├── interface-gallery.md
     ├── project-report.pdf
     ├── relational-algebra.docx
     ├── diagrams/          # PNG previews and editable draw.io sources
     ├── normalization/     # Normalization notes and final table definitions
-    ├── screenshots/       # 13 planned interface screens
     └── reference/          # Original classroom user/role setup notes
 ```
 
-## Documentation and interface planning
+## Documentation
 
 - [Full project report](docs/project-report.pdf)
 - [Normalization walkthrough](docs/normalization/normalization.docx)
 - [Final table definitions](docs/normalization/final-tables.docx)
 - [Relational algebra exercises](docs/relational-algebra.docx)
-- [All 13 interface mockups](docs/interface-gallery.md), including registration, admin review, teacher evaluation, and applicant dashboards
 
 ## Current limitations
 
@@ -166,7 +160,7 @@ The project report records equal contributions from four team members:
 | --- | --- | --- | --- |
 | MD. Nazmus Sadat Numan | 22-48497-3 | Normalization, table creation, basic PL/SQL | 25% |
 | Papia Sultana Prianka | 22-48356-3 | ER diagram, schema diagram, conclusion | 25% |
-| Syeda Fahmida Sharmin | 22-49720-3 | Scenario description, interface planning, advanced PL/SQL | 25% |
+| Syeda Fahmida Sharmin | 22-49720-3 | Scenario description, advanced PL/SQL | 25% |
 | Barno Biswas | 22-49203-3 | Introduction, project proposal, data insertion | 25% |
 
 Repository maintained by [MD. Nazmus Sadat Numan](https://github.com/sadatnuman).
